@@ -2,36 +2,38 @@
     padding: 0 9rem 0 9rem;
     display: flex;
     height: 90vh;
-    margin-bottom: 8rem;
-    margin-top: 9rem;
+    margin-bottom: 10rem;
+    margin-top: 8rem;
 }
 
 .awesome {
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-top: -2rem;
 }
 
 .awesome>:nth-child(1) {
     color: black;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .awesome>:nth-child(2) {
     color: orange;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .awesome>:nth-child(3) {
     color: black;
     font-size: 16px;
+    margin-top: 1rem;
 }
 
 .s-button {
     width: 11rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .cards {

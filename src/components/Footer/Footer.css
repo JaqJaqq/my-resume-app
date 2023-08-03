@@ -3,7 +3,7 @@
     align-items: center;
     margin: -0.5rem -3.5rem;
     position: relative;
-    margin-top: -20rem;
+    margin-top: -25rem;
 }
 
 .f-content {
@@ -19,7 +19,7 @@
 }
 
 .f-content>img {
-    width: 20%;
+    width: 15%;
 }
 
 .f-icon {

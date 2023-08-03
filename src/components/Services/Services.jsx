@@ -11,9 +11,10 @@ const Services = () => {
                 <span>Why</span>
                 <span>Hire me?</span>
                 <span>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    I'm a Full-Stack Developer training with high
+                    level of experience
                     <br />
-                    Delectus voluptatum placeat error soluta sapiente.
+                    in web development, producting the Quality at TechUpTH.
                 </span>
                 <a href="#">
                     <button className='button s-button'>Download CV</button>

@@ -9,10 +9,11 @@ function Intro() {
         <div className="i-name">
             <span>Hi! I Am</span>
             <span>Anurat Likitdachavong</span>
-            <span>Full-Stack Developer training with high
-                level of experience in web designing
-                and development, producting the 
-                Quality work at TechUpTH</span>
+            <span>graduated of Bachelor of Science in Biology from Mahidol University
+                <br />
+                I have been a research assistant at Faculty of Pharmacy, Mahidol University for 2 years
+                and I am interested in becoming a Full-stack Developer
+            </span>
         </div>
 
         <button className="button i-button">Send Request</button>
@@ -28,9 +29,9 @@ function Intro() {
         <div className="i-right">
             <img src="/icon/bullet.png" width={200}/>
             <img src="/icon/bullet.png" width={200}/>
-            <img src="/icon/man.png" alt="man" width={400}/>
+            <img src="/icon/man1.png" alt="man" width={400}/>
             <img src="/icon/emoji.png" alt="emoji" width={100}/>
-            <div style={{top: '10%', left: '-20%'}}>
+            <div style={{top: '10%', left: '-15%'}}>
                 <FloatingDiv image={"/icon/icon4.png"} txt1='Web' txt2='Developer' />
             </div>
             <div>

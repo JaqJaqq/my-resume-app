@@ -32,6 +32,7 @@
 }
 
 .c-button {
+    cursor: pointer;
     background: #ffffff;
     box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
@@ -39,4 +40,12 @@
     padding: 10px;
     font-size: 16px;
     color: #5290FD;
+}
+
+.c-button:hover {
+    cursor: pointer;
+    background: #5290FD;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #5290FD;
 }
