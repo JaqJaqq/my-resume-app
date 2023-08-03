@@ -1,0 +1,34 @@
+.contact-form {
+    padding: 0 9rem 0 15rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.contact-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.contact-right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact-right .user{
+    width: 30rem;
+    height: 4rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid sandybrown;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 8rem!important;
+}

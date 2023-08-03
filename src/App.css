@@ -9,14 +9,23 @@ body {
   background: #FAF4F2;
 }
 
-.app-header {
-  padding: 22px 100px;
-  height: 110px;
-  background-color: rgb(246, 61, 89);
-  color: #FFF;
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 62px;
+.app {
+  overflow: hidden;
+}
+
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: salmon;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  color: salmon;
+  border: 1px solid salmon;
+
 }
