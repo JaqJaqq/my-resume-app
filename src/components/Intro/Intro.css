@@ -2,7 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
-    padding: 0.5rem 3.5rem;
+    padding: 0.5rem 4rem 0rem 9rem;
 }
 
 .i-left {
@@ -46,7 +46,6 @@
 .i-icons {
     margin-top: 1rem;
     display: flex;
-    gap: 0rem;
 }
 
 .i-icons>* {

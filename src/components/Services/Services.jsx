@@ -24,7 +24,7 @@ const Services = () => {
             {/* right side */}
             <div className='cards'>
                 
-                <div style={{left: '18rem'}}>
+                <div style={{left: '20rem'}}>
                     <Card
                     emoji={"/icon/icon1.png"}
                     heading={"Communicative"}
@@ -32,7 +32,7 @@ const Services = () => {
                     />
                 </div>
                 {/* second card */}
-                <div style={{top: '12rem', left: '-4rem'}}>
+                <div style={{top: '12rem', left: '-2rem'}}>
                     <Card
                     emoji={"/icon/icon2.png"}
                     heading={"Professional"}
@@ -40,7 +40,7 @@ const Services = () => {
                     />
                 </div>
                 {/* third card */}
-                <div style={{top: '25rem', left: '15rem'}}>
+                <div style={{top: '25rem', left: '17rem'}}>
                     <Card
                     emoji={"/icon/icon3.png"}
                     heading={"Collaborative"}
