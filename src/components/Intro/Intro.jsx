@@ -1,15 +1,20 @@
 import React from "react";
 import './Intro.css';
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
+import { themeContext } from "../../Context";
+import { useContext } from "react";
 
 function Intro() {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
      <div className="intro">
         <div className="i-left">
         <div className="i-name">
-            <span>Hi! I Am</span>
+            <span style={{color: darkMode? 'white': ''}}>Hi! I Am</span>
             <span>Anurat Likitdachavong</span>
-            <span>graduated of Bachelor of Science in Biology from Mahidol University
+            <span style={{color: darkMode? 'white': ''}}>graduated of Bachelor of Science in Biology from Mahidol University
                 <br />
                 I have been a research assistant at Faculty of Pharmacy, Mahidol University for 2 years
                 and I am interested in becoming a Full-stack Developer
@@ -19,10 +24,10 @@ function Intro() {
         <button className="button i-button">Send Request</button>
         <div className="i-icons">
             <a href="https://github.com/JaqJaqq">
-                <img src="/icon/github.png" alt="github" width={100}/>
+                <img src="/icon/github.png" alt="github" width={100} style={{background: darkMode? 'wheat': ''}}/>
             </a>
-            <img src="/icon/linkedin.png" alt="linkedin" width={100}/>
-            <img src="/icon/ig.png" alt="instagram" width={100}/>
+            <img src="/icon/linkedin.png" alt="linkedin" width={100} style={{background: darkMode? 'wheat': ''}}/>
+            <img src="/icon/ig.png" alt="instagram" width={100} style={{background: darkMode? 'wheat': ''}}/>
         </div>
 
         </div>

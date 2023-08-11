@@ -48,8 +48,14 @@
     display: flex;
 }
 
+.i-icons>a>img {
+    border-radius: 30%;
+}
+
 .i-icons>* {
-    transform: scale(0.4);
+    transform: scale(0.5);
+    border-radius: 30%;
+    padding: 3px;
 }
 
 .i-icons>*:hover {
