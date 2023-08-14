@@ -26,8 +26,12 @@ function Intro() {
             <a href="https://github.com/JaqJaqq">
                 <img src="/icon/github.png" alt="github" width={100} style={{background: darkMode? 'wheat': ''}}/>
             </a>
-            <img src="/icon/linkedin.png" alt="linkedin" width={100} style={{background: darkMode? 'wheat': ''}}/>
-            <img src="/icon/ig.png" alt="instagram" width={100} style={{background: darkMode? 'wheat': ''}}/>
+            <a href="https://www.linkedin.com/in/anurat-likitdachavong-161740275/">
+                <img src="/icon/linkedin.png" alt="linkedin" width={100} style={{background: darkMode? 'wheat': ''}}/>
+            </a>
+            <a href="#">
+                <img src="/icon/ig.png" alt="instagram" width={100} style={{background: darkMode? 'wheat': ''}}/>
+            </a>
         </div>
 
         </div>
@@ -35,7 +39,7 @@ function Intro() {
             <img src="/icon/bullet.png" width={200}/>
             <img src="/icon/bullet.png" width={200}/>
             <img src="/icon/man1.png" alt="man" width={400}/>
-            <img src="/icon/emoji.png" alt="emoji" width={100}/>
+
             <div style={{top: '10%', left: '-15%'}}>
                 <FloatingDiv image={"/icon/icon4.png"} txt1='Web' txt2='Developer' />
             </div>

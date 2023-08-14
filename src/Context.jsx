@@ -1,3 +1,5 @@
+// use context & reducer to create toggle functions
+
 import { createContext, useReducer } from "react";
 
 export const themeContext = createContext();

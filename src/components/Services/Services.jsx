@@ -1,15 +1,44 @@
 import React from 'react';
 import './Services.css';
 import Card from '../Card/Card';
+import { themeContext } from "../../Context";
+import { useContext } from "react";
 
 const Services = () => {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className='services'>
 
             {/* left side */}
             <div className='awesome'>
-                <span>Why</span>
+                <span style={{color: darkMode? 'white': ''}}>Why</span>
                 <span>Hire me?</span>
+                <span>
+                    I'm a Full-Stack Developer training with high
+                    level of experience
+                    <br />
+                    in web development, producting the Quality at TechUpTH.
+                </span>
+                <br />
+                <br />
+                <span>
+                    I'm a Full-Stack Developer training with high
+                    level of experience
+                    <br />
+                    in web development, producting the Quality at TechUpTH.
+                </span>
+                <br />
+                <br />
+                <span>
+                    I'm a Full-Stack Developer training with high
+                    level of experience
+                    <br />
+                    in web development, producting the Quality at TechUpTH.
+                </span>
+                <br />
+                <br />
                 <span>
                     I'm a Full-Stack Developer training with high
                     level of experience
@@ -24,7 +53,7 @@ const Services = () => {
             {/* right side */}
             <div className='cards'>
                 
-                <div style={{left: '20rem'}}>
+                <div style={{left: '30rem'}}>
                     <Card
                     emoji={"/icon/icon1.png"}
                     heading={"Communicative"}
@@ -32,7 +61,7 @@ const Services = () => {
                     />
                 </div>
                 {/* second card */}
-                <div style={{top: '12rem', left: '-2rem'}}>
+                <div style={{top: '12rem', left: '8rem'}}>
                     <Card
                     emoji={"/icon/icon2.png"}
                     heading={"Professional"}
@@ -40,7 +69,7 @@ const Services = () => {
                     />
                 </div>
                 {/* third card */}
-                <div style={{top: '25rem', left: '17rem'}}>
+                <div style={{top: '25rem', left: '27rem'}}>
                     <Card
                     emoji={"/icon/icon3.png"}
                     heading={"Collaborative"}
