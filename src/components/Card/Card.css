@@ -1,5 +1,5 @@
 .card {
-    width: 15rem;
+    width: 18rem;
     height: 22rem;
     position: absolute;
     display: flex;
@@ -28,7 +28,7 @@
 .card>img {
     transform: scale(0.5);
     margin-bottom: -1rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .c-button {
@@ -40,6 +40,7 @@
     padding: 10px;
     font-size: 16px;
     color: #5290FD;
+    margin-top: 1rem;
 }
 
 .c-button:hover {

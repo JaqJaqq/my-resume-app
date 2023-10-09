@@ -38,7 +38,7 @@ function Intro() {
         <div className="i-right">
             <img src="/icon/bullet.png" width={200}/>
             <img src="/icon/bullet.png" width={200}/>
-            <img src="/icon/man1.png" alt="man" width={400}/>
+            <img src="/icon/man1.png" alt="man" width={500}/>
 
             <div style={{top: '10%', left: '-15%'}}>
                 <FloatingDiv image={"/icon/icon4.png"} txt1='Web' txt2='Developer' />

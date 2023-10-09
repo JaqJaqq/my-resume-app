@@ -18,25 +18,25 @@ const Portfolio = () => {
             className="portfolio-slider"
             >
                 <SwiperSlide>
+                    <img src="/icon/Register.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/Login.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/Service1.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/Service2.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/Payment.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/Payment2.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
                     <img src="/icon/Header.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Services.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/takehand.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/pricing.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Testimonial.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Newsletter.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Footer.png" alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>

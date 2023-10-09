@@ -15,18 +15,18 @@
 
 .awesome>:nth-child(1) {
     color: black;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
 .awesome>:nth-child(2) {
     color: orange;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
 .awesome>:nth-child(3) {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 1.5rem;
 }
 

@@ -2,7 +2,7 @@
     padding: 0 9rem 0 15rem;
     display: flex;
     height: 80vh;
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
 .contact-right {
@@ -22,7 +22,7 @@
 .contact-right .user{
     width: 30rem;
     height: 4rem;
-    padding: 0.3em;
+    padding: 1em;
     outline: none;
     border: 2px solid sandybrown;
     border-radius: 8px;

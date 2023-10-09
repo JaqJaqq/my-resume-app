@@ -16,7 +16,6 @@ function Navbar() {
                         <li>Service</li>
                         <li>Experience</li>
                         <li>Portfolio</li>
-                        <li>Testimonials</li>
                     </ul>
                 </div>
                 <button className="button n-button">

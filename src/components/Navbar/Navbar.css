@@ -34,7 +34,7 @@
   .n-list>ul {
     display: flex;
     gap: 2rem;
-    margin-right: 4rem; 
+    margin-left: 12rem; 
   }
 
   .n-list>ul>li:hover {
