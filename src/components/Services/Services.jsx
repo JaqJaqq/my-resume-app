@@ -26,29 +26,24 @@ const Services = () => {
                     in web development, producting the Quality at TechUpTH.
                 </span>
                 <br />
-                <br />
                 <span>
-                    I'm a Full-Stack Developer training with high
-                    level of experience
-                    <br />
-                    in web development, producting the Quality at TechUpTH.
+                    My side projects
                 </span>
                 <br />
+                <p>
+                    <h6>- Find A Trips</h6>
+                        [React]
+                </p>
                 <br />
-                <span>
-                    I'm a Full-Stack Developer training with high
-                    level of experience
-                    <br />
-                    in web development, producting the Quality at TechUpTH.
-                </span>
+                <p>
+                    <h6>- Wan-Sandwich Shop Delivery Website</h6>
+                        [Django, HTML, CSS, JavaScript, Python, MySQL]
+                </p>
                 <br />
-                <br />
-                <span>
-                    I'm a Full-Stack Developer training with high
-                    level of experience
-                    <br />
-                    in web development, producting the Quality at TechUpTH.
-                </span>
+                <p>
+                    <h6>- Home Service Website</h6>
+                        [Ant-design, tailwindCSS, React, nodeJS, Express, Supabase]
+                </p>
                 <a href={Resume} download>
                     <button className='button s-button'>Download CV</button>
                 </a>
