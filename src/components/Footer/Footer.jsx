@@ -11,11 +11,10 @@ const Footer = () => {
             <div className="f-content">
                 <span>anurat.lik@gmail.com</span>
                 <div className="f-icon">
-                    <Insta color='white' size='3rem' />
-                    <Facebook color='white' size='3rem' />
-                    <Github color='white' size='3rem' />
+                    <Insta color='white' size='4rem' />
+                    <Facebook color='white' size='4rem' />
+                    <Github color='white' size='4rem' />
                 </div>
-                <img src="/icon/copyright.png" alt="" />
             </div>
         </div>
     )
