@@ -43,3 +43,23 @@
 .cards>* {
     position: absolute;
 }
+
+@media screen and (max-width: 480px) {
+    .services{
+        flex-direction: column;
+        height: 80rem;
+        padding: 3rem;
+        margin-top: 12rem;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 24rem;
+        padding-top: 3rem;
+        margin-left: 1rem;
+        
+    }
+    .cards>* {
+        position: static;
+    }
+  }

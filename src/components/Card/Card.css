@@ -50,3 +50,9 @@
     color: white;
     border: 1px solid #5290FD;
 }
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: auto;
+    }
+  }

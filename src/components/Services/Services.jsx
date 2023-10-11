@@ -3,13 +3,17 @@ import './Services.css';
 import Card from '../Card/Card';
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { motion } from 'framer-motion'
+import Resume from './resume.pdf'
 
 const Services = () => {
+
+    const transition = {duration: 1, type: 'spring'}
 
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className='services'>
+        <div className='services' id='Services'>
 
             {/* left side */}
             <div className='awesome'>
@@ -45,7 +49,7 @@ const Services = () => {
                     <br />
                     in web development, producting the Quality at TechUpTH.
                 </span>
-                <a href="#">
+                <a href={Resume} download>
                     <button className='button s-button'>Download CV</button>
                 </a>
             </div>
@@ -53,29 +57,41 @@ const Services = () => {
             {/* right side */}
             <div className='cards'>
                 
-                <div style={{left: '28rem'}}>
+                <motion.div 
+                whileInView={{left: '22rem'}}
+                initial={{left: '29rem'}}
+                transition={transition}
+                style={{left: '22rem'}}>
                     <Card
                     emoji={"/icon/icon1.png"}
                     heading={"Communicative"}
                     detail={"Good communication and good listener"}
                     />
-                </div>
+                </motion.div>
                 {/* second card */}
-                <div style={{top: '12rem', left: '4rem'}}>
+                <motion.div 
+                whileInView={{left: '-1rem'}}
+                initial={{left: '-8rem'}}
+                transition={transition}
+                style={{top: '12rem', left: '-1rem'}}>
                     <Card
                     emoji={"/icon/icon2.png"}
                     heading={"Professional"}
                     detail={"HTML, CSS, JavaScript, React, NodeJS, MySQL, Python, Django"}
                     />
-                </div>
+                </motion.div>
                 {/* third card */}
-                <div style={{top: '26rem', left: '26rem'}}>
+                <motion.div
+                whileInView={{left: '20rem'}}
+                initial={{left: '27rem'}}
+                transition={transition} 
+                style={{top: '25rem', left: '20rem'}}>
                     <Card
                     emoji={"/icon/icon3.png"}
                     heading={"Collaborative"}
                     detail={"Good teamwork and Community Support for React Development Project"}
                     />
-                </div>
+                </motion.div>
             </div>
         </div>
     )

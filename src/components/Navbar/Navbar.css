@@ -35,6 +35,7 @@
     display: flex;
     gap: 2rem;
     margin-left: 12rem; 
+    cursor: pointer;
   }
 
   .n-list>ul>li:hover {
@@ -45,4 +46,13 @@
   .n-button {
     flex: 2;
     width: 10rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    .n-list{
+      display: none;
+    }
+    .n-button{
+      display: none;
+    }
   }

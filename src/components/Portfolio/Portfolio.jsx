@@ -2,13 +2,19 @@ import React from "react";
 import './Portfolio.css';
 import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';
+import { themeContext } from "../../Context";
+import { useContext } from "react";
+
 
 const Portfolio = () => {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="Portfolio">
             {/* heading */}
-            <span>Recent ProJects</span>
-            <span>Portfolio</span>
+            <span style={{color: darkMode? 'white': ''}}>Recent ProJects</span>
+            <span style={{color: darkMode? 'wheat': ''}}>Portfolio</span>
 
             {/* slider */}
             <Swiper

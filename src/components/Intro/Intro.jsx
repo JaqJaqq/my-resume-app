@@ -3,8 +3,11 @@ import './Intro.css';
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { motion } from 'framer-motion'
 
 function Intro() {
+
+    const transition = {duration : 2, type: 'spring'}
 
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
@@ -39,13 +42,22 @@ function Intro() {
             <img src="/icon/bullet.png" width={200}/>
             <img src="/icon/bullet.png" width={200}/>
             <img src="/icon/man1.png" alt="man" width={500}/>
+            <motion.img 
+                initial={{left: '-65%'}}
+                whileInView={{left: '-50%'}}
+                transition={transition}
+                src="/icon/emoji.png" width={150}
+                className="motion-img"/>
 
-            <div style={{top: '10%', left: '-15%'}}>
+            <motion.div 
+                initial={{top: '4%', left: '44%'}}
+                whileInView={{left: '-8%'}}
+                transition={transition}
+                style={{top: '10%', left: '-15%'}}
+                className="floating-div"
+                >
                 <FloatingDiv image={"/icon/icon4.png"} txt1='Web' txt2='Developer' />
-            </div>
-            <div>
-
-            </div>
+            </motion.div>
         </div>
      </div>
     )

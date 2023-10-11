@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -27,5 +31,10 @@ body {
   cursor: pointer;
   color: salmon;
   border: 1px solid salmon;
+}
 
+@media screen and (max-width: 480px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
 }
