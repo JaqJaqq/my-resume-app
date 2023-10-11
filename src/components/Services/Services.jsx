@@ -24,26 +24,16 @@ const Services = () => {
                     level of experience
                     <br />
                     in web development, producting the Quality at TechUpTH.
+                    <br />
+                    <br />
+                    I have worked on a project as a team using 
+                    <br /> 
+                    Agile and Scrum methodologies.
+                    <br /> 
+                    We conducted sprint planning and prioritized
+                    <br /> 
+                    our backlogs by scoring them using the Fibonacci sequence.
                 </span>
-                <br />
-                <span>
-                    My side projects
-                </span>
-                <br />
-                <p>
-                    <h6>- Find A Trips</h6>
-                        [React]
-                </p>
-                <br />
-                <p>
-                    <h6>- Wan-Sandwich Shop Delivery Website</h6>
-                        [Django, HTML, CSS, JavaScript, Python, MySQL]
-                </p>
-                <br />
-                <p>
-                    <h6>- Home Service Website</h6>
-                        [Ant-design, tailwindCSS, React, nodeJS, Express, Supabase]
-                </p>
                 <a href={Resume} download>
                     <button className='button s-button'>Download CV</button>
                 </a>
