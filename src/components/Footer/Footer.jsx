@@ -7,14 +7,13 @@ import Github from '@iconscout/react-unicons/icons/uil-github'
 const Footer = () => {
     return (
         <div className="footer">
-            <img src="/icon/footer.png" alt="" style={{width: '100%'}} />
             <div className="f-content">
-                <span>anurat.lik@gmail.com</span>
                 <div className="f-icon">
-                    <Insta color='white' size='4rem' />
-                    <Facebook color='white' size='4rem' />
-                    <Github color='white' size='4rem' />
+                    <Insta color='white' size='3rem' />
+                    <Facebook color='white' size='3rem' />
+                    <Github color='white' size='3rem' />
                 </div>
+                <p>Copyright © 2023 My resume app. All rights reserved</p>
             </div>
         </div>
     )
