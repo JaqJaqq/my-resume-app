@@ -31,7 +31,7 @@ const Services = () => {
                     I help teams meet project goals and move smoothly from start to finish.
                 </span>
                 <a href={Resume} download>
-                    <button className='button s-button'>Download CV</button>
+                    <button className='button s-button'>Download Resume</button>
                 </a>
             </div>
 

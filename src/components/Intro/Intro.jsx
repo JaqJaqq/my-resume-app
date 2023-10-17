@@ -24,16 +24,13 @@ function Intro() {
             </span>
         </div>
 
-        <button className="button i-button">Send Request</button>
+        {/* <button className="button i-button">Send Request</button> */}
         <div className="i-icons">
             <a href="https://github.com/JaqJaqq">
                 <img src="/icon/github.png" alt="github" width={100} style={{background: darkMode? 'wheat': ''}}/>
             </a>
             <a href="https://www.linkedin.com/in/anurat-likitdachavong-161740275/">
                 <img src="/icon/linkedin.png" alt="linkedin" width={100} style={{background: darkMode? 'wheat': ''}}/>
-            </a>
-            <a href="#">
-                <img src="/icon/ig.png" alt="instagram" width={100} style={{background: darkMode? 'wheat': ''}}/>
             </a>
         </div>
 
