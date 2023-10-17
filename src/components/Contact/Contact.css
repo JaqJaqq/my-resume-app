@@ -44,7 +44,26 @@ textarea {
         margin-left: -12rem;
     }
     .contact-right{
-        width: 40rem;
-        padding-right: 40rem;
+        margin-top: 2rem;
+    }
+    .awesome>:nth-child(1){
+        font-size: 3rem;
+    }
+    .awesome>:nth-child(2){
+        font-size: 3rem;
+    }
+    .contact-right .user{
+        width: 20rem;
+        height: 4rem;
+        padding-right: 1em;
+        margin-right: 7rem;
+        outline: none;
+        border: 2px solid sandybrown;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+    .contact-right .button{
+        width: 8rem;
+        margin-right: 7rem;
     }
   }

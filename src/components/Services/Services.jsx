@@ -20,19 +20,21 @@ const Services = () => {
                 <span style={{color: darkMode? 'white': ''}}>Why</span>
                 <span>Hire me?</span>
                 <span>
-                    I'm a Full-Stack Developer training with high
-                    level of experience
+                    As a proficient Full-Stack Developer with a solid training
                     <br />
-                    in web development, producting the Quality at TechUpTH.
+                    background, I bring a high level of expertise in web development,
                     <br />
+                    delivering quality products. My experience extends to collaborative 
+                    <br /> 
+                    project environments, adeptly utilizing Agile and Scrum methodologies.
+                    <br /> 
+                    Engaging in systematic sprint planning and effective backlog 
+                    <br /> 
+                    prioritization  using the Fibonacci sequence, I excel in aligning 
                     <br />
-                    I have worked on a project as a team using 
-                    <br /> 
-                    Agile and Scrum methodologies.
-                    <br /> 
-                    We conducted sprint planning and prioritized
-                    <br /> 
-                    our backlogs by scoring them using the Fibonacci sequence.
+                    team efforts with project milestones, ensuring seamless progression
+                    <br />
+                    from ideation to execution.
                 </span>
                 <a href={Resume} download>
                     <button className='button s-button'>Download CV</button>

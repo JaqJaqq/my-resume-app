@@ -18,31 +18,43 @@ const Portfolio = () => {
 
             {/* slider */}
             <Swiper
-            spaceBetween={30}
+            spaceBetween={20}
             slidesPerView={3}
             grabCursor={true}
             className="portfolio-slider"
             >
                 <SwiperSlide>
+                    <img src="/icon/ws-landing-page.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/ws-menu.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/ws-subscription.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/tourist-attraction.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/hs-landing-page.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/hs-services.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/hs-admin.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/hs-checkout-form.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="/icon/hs-checkout-form2.png" alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
                     <img src="/icon/Register.png" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="/icon/Login.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Service1.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Service2.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Payment.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Payment2.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/icon/Header.png" alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>

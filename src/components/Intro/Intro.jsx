@@ -17,10 +17,10 @@ function Intro() {
         <div className="i-name">
             <span style={{color: darkMode? 'white': ''}}>Hi! I Am</span>
             <span>Anurat Likitdachavong</span>
-            <span style={{color: darkMode? 'white': ''}}>graduated of Bachelor of Science in Biology from Mahidol University
+            <span style={{color: darkMode? 'white': ''}}>Earned a B.S. in Biology from Mahidol University and worked for two years as a Research Assistant. 
                 <br />
-                I have been a research assistant at Faculty of Pharmacy, Mahidol University for 2 years
-                and I am interested in becoming a Full-stack Developer
+                Now, transitioning to a Full-stack Developer role, my background in science has equipped me with strong problem-solving skills. 
+                I'm eager to apply this skill in programming and look forward to bringing a unique perspective to development projects.
             </span>
         </div>
 
@@ -39,8 +39,8 @@ function Intro() {
 
         </div>
         <div className="i-right">
-            <img src="/icon/bullet.png" width={200}/>
-            <img src="/icon/bullet.png" width={200}/>
+            <img className="bullet" src="/icon/bullet.png" width={200}/>
+            <img className="bullet" src="/icon/bullet.png" width={200}/>
             <img src="/icon/man1.png" alt="man" width={500}/>
             <motion.img 
                 initial={{left: '-65%'}}
