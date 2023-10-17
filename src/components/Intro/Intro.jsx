@@ -38,7 +38,7 @@ function Intro() {
         <div className="i-right">
             <img className="bullet" src="/icon/bullet.png" width={200}/>
             <img className="bullet" src="/icon/bullet.png" width={200}/>
-            <img src="/icon/man1.png" alt="man" width={500}/>
+            <img src="/icon/man3.png" alt="man" width={500}/>
             <motion.img 
                 initial={{left: '-65%'}}
                 whileInView={{left: '-50%'}}
