@@ -20,21 +20,15 @@ const Services = () => {
                 <span style={{color: darkMode? 'white': ''}}>Why</span>
                 <span>Hire me?</span>
                 <span>
-                    As a proficient Full-Stack Developer with a solid training
+                    As a  Full-Stack Developer with a solid training, 
                     <br />
-                    background, I bring a high level of expertise in web development,
+                    I have good expertise in web development, delivering quality products
                     <br />
-                    delivering quality products. My experience extends to collaborative 
+                    I have worked well in team projects using Agile and Scrum. 
                     <br /> 
-                    project environments, adeptly utilizing Agile and Scrum methodologies.
+                    With systematic planning and clear prioritization,
                     <br /> 
-                    Engaging in systematic sprint planning and effective backlog 
-                    <br /> 
-                    prioritization  using the Fibonacci sequence, I excel in aligning 
-                    <br />
-                    team efforts with project milestones, ensuring seamless progression
-                    <br />
-                    from ideation to execution.
+                    I help teams meet project goals and move smoothly from start to finish.
                 </span>
                 <a href={Resume} download>
                     <button className='button s-button'>Download CV</button>

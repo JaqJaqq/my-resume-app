@@ -48,9 +48,11 @@ textarea {
     }
     .awesome>:nth-child(1){
         font-size: 3rem;
+        margin-left: -0.8rem;
     }
     .awesome>:nth-child(2){
         font-size: 3rem;
+        margin-left: -0.8rem;
     }
     .contact-right .user{
         width: 20rem;
@@ -64,6 +66,6 @@ textarea {
     }
     .contact-right .button{
         width: 8rem;
-        margin-right: 7rem;
+        margin-right: 10rem;
     }
   }

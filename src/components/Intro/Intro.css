@@ -101,10 +101,18 @@
 
 @media screen and (max-width: 480px) {
     .intro{
-      flex-direction: column;
-      height: 64rem;
-      padding: 3rem;
-      margin-top: -3rem;
+        flex-direction: column;
+        height: 64rem;
+        padding: 3rem;
+        margin-top: -3rem;
+    }
+    .i-name {
+        display: flex;
+        justify-content: center;
+        margin-left: -1rem;
+    }
+    .button{
+        margin-left: 3.5rem;
     }
     .i-name>:nth-child(1) {
         color: black;
@@ -128,12 +136,12 @@
         font-weight: 300;
     }
     .i-right{
-      transform: scale(1);
-      left: -4rem;
-      margin-bottom: -14rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+        transform: scale(1);
+        left: -4rem;
+        margin-bottom: -14rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .floating-div{
         display: none;
