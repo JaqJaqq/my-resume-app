@@ -36,10 +36,10 @@
 
 @media screen and (max-width: 480px) {
     .p-wrapper {
-        height: 50vh;
+        height: 60vh;
         margin-bottom: 12rem;
     }
     .description {
-        font-size: 12px;
+        font-size: 10px;
     }
   }
