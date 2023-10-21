@@ -1,0 +1,44 @@
+.t-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t-wrapper .swiper {
+    width: 80%;
+    height: 70%;
+}
+
+.t-heading>* {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.t-heading span:nth-of-type(2) {
+    color: orange;
+}
+
+.t-wrapper .swiper {
+    overflow: visible!important;
+}
+
+.testimonial-slider {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 480px) {
+    .t-wrapper{
+        height: 40rem;
+        padding-left: 1.2rem;
+        margin-left: -1rem;
+    }
+    .t-wrapper .swiper{
+        width: 95%;
+    }
+    .t-heading {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+  }

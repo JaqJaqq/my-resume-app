@@ -26,6 +26,9 @@ function Navbar() {
                         <Link spy={true} to='Portfolio' smooth={true}>
                             <li>Portfolio</li>
                         </Link>
+                        <Link spy={true} to='Testimonials' smooth={true}>
+                            <li>Testimonials</li>
+                        </Link>
                     </ul>
                 </div>
                 <Link spy={true} to='Contact' smooth={true}>
