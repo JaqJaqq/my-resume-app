@@ -55,14 +55,12 @@
     width: 10rem;
   }
 
-  li:hover,
-  li.active {
+  li:hover {
     color: wheat;
     transition: 0.3s ease-in-out;
   }
 
-  li:hover::after,
-  li.active::after {
+  li:hover::after {
     content: "";
     width: 50%;
     height: 2px;
@@ -90,7 +88,7 @@
       gap: 2rem;
       color: black;
       position: fixed;
-      top: 93px;
+      top: 64px;
       right: -400px;
       width: 300px;
       height: 100vh;
@@ -109,7 +107,7 @@
     .container {
       display: inline-block;
       cursor: pointer;
-      margin-left: 11rem;
+      margin-left: 8rem;
     }
 
     .bar1, .bar2, .bar3 {
