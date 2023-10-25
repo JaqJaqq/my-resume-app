@@ -1,7 +1,7 @@
 .intro {
     display: flex;
     height: 75vh;
-    margin-top: 6rem;
+    margin-top: 11rem;
     padding: 0.5rem 4rem 0rem 9rem;
 }
 
@@ -104,7 +104,7 @@
         flex-direction: column;
         height: 64rem;
         padding: 3rem;
-        margin-top: -3rem;
+        margin-top: 3rem;
     }
     .i-name {
         display: flex;
@@ -151,5 +151,10 @@
     }
     .bullet{
         display: none;
+    }
+    .i-icons {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
     }
   }

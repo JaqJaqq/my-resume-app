@@ -40,26 +40,6 @@ const Portfolio = () => {
                 pagination={{ clickable: true }}
             >
                 <SwiperSlide>
-                    <img src={Ws1} alt="" />
-                    <br />
-                    <span className="description">Project Wan-Sandwich: Landing Page</span>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Ws2} alt="" />
-                    <br />
-                    <span className="description">Project Wan-Sandwich: Menu Page</span>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Ws3} alt="" />
-                    <br />
-                    <span className="description">Project Wan-Sandwich: Subscription Page</span>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Ta} alt="" />
-                    <br />
-                    <span className="description">Project Tourist Attraction</span>
-                </SwiperSlide>
-                <SwiperSlide>
                     <img src={Hs1} alt="" />
                     <br />
                     <span className="description">Project Home Service: Landing Page</span>
@@ -83,6 +63,26 @@ const Portfolio = () => {
                     <img src={Hs5} alt="" />
                     <br />
                     <span className="description">Project Home Service: Admin Dashboard</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Ws1} alt="" />
+                    <br />
+                    <span className="description">Project Django: Landing Page</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Ws2} alt="" />
+                    <br />
+                    <span className="description">Project Django: Menu Page</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Ws3} alt="" />
+                    <br />
+                    <span className="description">Project Django: Subscription Page</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Ta} alt="" />
+                    <br />
+                    <span className="description">Project Tourist Attraction</span>
                 </SwiperSlide>
             </Swiper>
         </div>

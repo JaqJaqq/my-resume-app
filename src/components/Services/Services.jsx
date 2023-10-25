@@ -46,7 +46,7 @@ const Services = () => {
                     <Card
                     emoji={"/icon/icon1.png"}
                     heading={"Communicative"}
-                    detail={"Good communication and good listener"}
+                    detail={"Good communication and good listener, intermediate English"}
                     />
                 </motion.div>
                 {/* second card */}

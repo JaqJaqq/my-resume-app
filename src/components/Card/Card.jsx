@@ -13,7 +13,7 @@ const Card = ({emoji, heading, detail}) => {
             <img src={emoji} alt="" />
             <span style={{color: darkMode? 'white': ''}}>{heading}</span>
             <span style={{color: darkMode? 'white': ''}}>{detail}</span>
-            <button className='c-button'>Learn More</button>
+            {/* <button className='c-button'>Learn More</button> */}
         </div>
     )
 }
