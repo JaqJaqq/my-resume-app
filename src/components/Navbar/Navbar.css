@@ -96,6 +96,7 @@
       font-size: 18px;
       transition: bottom 0.4s ease-in;
       top: -100%;
+      z-index: -1;
     }
 
     #navbar.active {
@@ -140,10 +141,13 @@
     #navbar {
       top: 72px;
     }
-  }
+  } */
 
   @media (max-height: 700px) {
     #navbar {
-      top: 66px;
+      height: 50vh;
     }
-  } */
+    .n-wrapper {   
+      height: 13vh;
+    }
+  }
