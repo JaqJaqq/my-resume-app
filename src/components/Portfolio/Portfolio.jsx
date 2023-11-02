@@ -38,6 +38,7 @@ const Portfolio = () => {
                 modules={[Pagination]}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
+                className="custom-swiper"
             >
                 <SwiperSlide>
                     <img src={Hs1} alt="" />

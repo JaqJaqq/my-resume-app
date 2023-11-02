@@ -83,23 +83,25 @@
     #navbar {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
       gap: 2rem;
-      color: black;
+      color: #fff;
       position: fixed;
-      right: -400px;
-      width: 300px;
-      height: 100vh;
-      background-color: salmon;
+      width: 105%;
+      height: 35vh;
+      background-color: #FF2950;
       box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
       padding: 2rem;
       font-size: 18px;
-      transition: 0.3s ease-in-out;
+      transition: bottom 0.4s ease-in;
+      top: -100%;
     }
 
     #navbar.active {
-      right: -80px;
+      right: -40px;
+      top: 70px;
+      transition: top 0.4s ease-in-out;
     }
 
     /* Hamburger menu */
@@ -128,7 +130,7 @@
     }
   }
 
-  @media (max-height: 1000px) {
+  /* @media (max-height: 1000px) {
     #navbar {
       top: 93px;
     }
@@ -144,4 +146,4 @@
     #navbar {
       top: 66px;
     }
-  }
+  } */

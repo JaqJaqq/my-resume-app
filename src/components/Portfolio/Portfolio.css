@@ -34,6 +34,10 @@
     font-weight: bold;
 }
 
+.custom-swiper .swiper-pagination-bullet {
+  background-color: #218ddf;
+}
+
 @media screen and (max-width: 480px) {
     .p-wrapper {
         height: 60vh;

@@ -20,7 +20,11 @@ function Navbar() {
             </div>
             <div className="n-right">
                 <div className="n-list">
-                    <ul id="navbar" className={clicked ? "navbar active" : "navbar"} style={{listStyleType: "none"}}>
+                    <ul 
+                        id="navbar" 
+                        className={clicked ? "navbar active" : "navbar"} 
+                        style={{listStyleType: "none"}}
+                    >
 
                         <Link spy={true} to='Home' smooth={true} offset={-60} activeClass="activeClass">
                             <li className="active">Home</li>
