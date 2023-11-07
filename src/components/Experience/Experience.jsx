@@ -1,9 +1,11 @@
 import React from "react";
 import './Experience.css'; 
+import ParticlesContainer from "../Particles/Particles";
 
 const Experience = () => {
     return (
         <div className="experience" id="Experience">
+            {/* <ParticlesContainer /> */}
             <div className="achievement">
                 <div className="circle">1</div>
                 <span>year</span>
@@ -19,7 +21,7 @@ const Experience = () => {
                 <span>companies</span>
                 <span>Work</span>
             </div>
-
+            {/* <ParticlesContainer /> */}
         </div>
     )
 }

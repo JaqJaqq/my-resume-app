@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import { themeContext } from './Context';
 import { useContext } from 'react';
 import Testimonial from './components/Testimonials/Testimonials';
+import ParticlesContainer from './components/Particles/Particles';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         color : darkMode? 'white': ''
       }}
       >
+        <ParticlesContainer />
         <Navbar />
         <Intro />
         <Services />

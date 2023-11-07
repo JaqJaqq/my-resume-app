@@ -4,6 +4,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from 'framer-motion'
+import ParticlesContainer from "../Particles/Particles";
 
 function Intro() {
 
@@ -13,11 +14,13 @@ function Intro() {
     const darkMode = theme.state.darkMode;
     return (
      <div className="intro" id="Home">
+        {/* <ParticlesContainer /> */}
         <div className="i-left">
         <div className="i-name">
             <span style={{color: darkMode? 'white': ''}}>Hi! I Am</span>
             <span>Anurat Likitdachavong</span>
-            <span style={{color: darkMode? 'white': ''}}>Earned a B.S. in Biology from Mahidol University and worked for two years as a Research Assistant. 
+            <span style={{color: darkMode? 'white': ''}}>Earned a B.Sc. in Biology from Mahidol University and worked for two years as a Research Assistant
+            in pharmaceutical technology field. 
                 <br />
                 Now, transitioning to a Full-stack Developer role, my background in science has equipped me with strong problem-solving skills. 
                 I'm eager to apply this skill in programming and look forward to bringing a unique perspective to development projects.
@@ -55,6 +58,7 @@ function Intro() {
                 >
                 <FloatingDiv image={"/icon/icon4.png"} txt1='Web' txt2='Developer' />
             </motion.div>
+            {/* <ParticlesContainer /> */}
         </div>
      </div>
     )
