@@ -72,6 +72,9 @@
   }
 
   @media screen and (max-width: 480px) {
+    .n-wrapper {
+      opacity: 1;
+    }
     .n-left{
       margin-left: -2rem;
     }
